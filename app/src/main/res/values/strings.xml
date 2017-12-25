@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GYYX</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ask_again">你就说给不给把</string>
+    <string name="cancel">取消</string>
+    <string name="setting">设置</string>
+    <string name="perm_tip">当前应用缺少必要权限</string>
+    <string name="shebei">设备号</string>
+</resources>

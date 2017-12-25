@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="50px" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/image1_i1"
+            android:layout_width="0dp"
+            android:layout_height="200px"
+            android:layout_weight="1"
+            android:src="@mipmap/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/image2_i1"
+            android:layout_width="0dp"
+            android:layout_height="200px"
+            android:layout_weight="1"
+            android:src="@mipmap/ic_launcher" />
+
+        <ImageView
+            android:id="@+id/image3_i1"
+            android:layout_width="0dp"
+            android:layout_height="200px"
+            android:layout_weight="1"
+            android:src="@mipmap/ic_launcher" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_margin="10px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_marginLeft="40px"
+            android:id="@+id/titleimg1"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:src="@mipmap/titleimg1" />
+        <TextView
+            android:id="@+id/tvNum1_i1"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/titleimg1"
+            android:text="aaaa" />
+        <ImageView
+            android:id="@+id/imagecare_i1"
+            android:layout_marginLeft="50px"
+            android:layout_toRightOf="@id/tvNum1_i1"
+            android:src="@mipmap/care"
+            android:layout_width="50px"
+            android:layout_height="50px" />
+
+        <TextView
+            android:id="@+id/tvNum2_i1"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@id/imagecare_i1"
+            android:layout_toRightOf="@id/imagecare_i1"
+            android:text="aaaa" />
+        <TextView
+            android:layout_marginLeft="50px"
+            android:id="@+id/tvDate_i1"
+            android:layout_toRightOf="@id/tvNum2_i1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <com.v.gyyx.customviews.AddCareView
+            android:id="@+id/image_addcare_i1"
+            android:layout_marginRight="100px"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="100px"/>
+</LinearLayout>

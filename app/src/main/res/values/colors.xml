@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+    //引导页的三个沉浸颜色
+    <color name="colorYD1">#ADBFD7</color>
+    <color name="colorYD2">#1D7CBC</color>
+    <color name="colorYD3">#E87C5F</color>
+
+    //灰色
+    <color name="colorHui">#5000</color>
+    <color name="colorQianHui">#C0C0C0</color>
+    //黑色
+    <color name="colorBlack">#000000</color>
+</resources>
